@@ -38,6 +38,7 @@ struct HomePageView: View {
             
         }
         .navigationViewStyle(.stack)
+        .accentColor(.primary)
         
     }
 }
