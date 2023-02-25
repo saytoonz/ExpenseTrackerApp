@@ -10,10 +10,10 @@ import Foundation
 var transactionPreviewData = Transaction(
     id: 1,
     date: "01/02/2023",
-    institution: "Ecobank",
+    institution: "EcoBank",
     account: "My Account",
-    merchat: "Apple",
-    amount: 99.98,
+    merchant: "Apple",
+    amount: 1284.74,
     type: "debit",
     categoryId: 202,
     category: "Apple Store Account",
