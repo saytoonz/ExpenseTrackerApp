@@ -20,6 +20,7 @@ struct RecentTransactionsList: View {
                 
 //            MARK: Naviationlink
                 NavigationLink {
+                    AllTransactionsPageView()
                     
                 } label: {
                     HStack(spacing: 4) {

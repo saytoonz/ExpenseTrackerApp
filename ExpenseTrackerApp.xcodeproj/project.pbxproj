@@ -18,6 +18,7 @@
 		22ADD7BC29A9FF8F00242DF2 /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 22ADD7BB29A9FF8F00242DF2 /* SwiftUIFontIcon */; };
 		22ADD7BF29AA0CCF00242DF2 /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADD7BE29AA0CCF00242DF2 /* TransactionListViewModel.swift */; };
 		22ADD7C129AA1A4400242DF2 /* RecentTransactionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADD7C029AA1A4400242DF2 /* RecentTransactionsList.swift */; };
+		22DCA41929AAAC96001ED045 /* AllTransactionsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DCA41829AAAC96001ED045 /* AllTransactionsPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		22A7F68929A9288600E8212C /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 		22ADD7BE29AA0CCF00242DF2 /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
 		22ADD7C029AA1A4400242DF2 /* RecentTransactionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionsList.swift; sourceTree = "<group>"; };
+		22DCA41829AAAC96001ED045 /* AllTransactionsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTransactionsPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				228D114F29A910D500F132C2 /* HomePageView.swift */,
+				22DCA41829AAAC96001ED045 /* AllTransactionsPageView.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				228D115029A910D500F132C2 /* HomePageView.swift in Sources */,
 				22A7F68A29A9288600E8212C /* TransactionRow.swift in Sources */,
 				228D115C29A9190000F132C2 /* Extensions.swift in Sources */,
+				22DCA41929AAAC96001ED045 /* AllTransactionsPageView.swift in Sources */,
 				22ADD7C129AA1A4400242DF2 /* RecentTransactionsList.swift in Sources */,
 				22ADD7BF29AA0CCF00242DF2 /* TransactionListViewModel.swift in Sources */,
 				228D114E29A910D500F132C2 /* ExpenseTrackerAppApp.swift in Sources */,

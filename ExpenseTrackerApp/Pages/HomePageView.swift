@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HomePageView: View {
-    @EnvironmentObject var transactionListViewModel: TransactionListViewModel
+//    @EnvironmentObject var transactionListViewModel: TransactionListViewModel
     var body: some View {
         
         NavigationView {
