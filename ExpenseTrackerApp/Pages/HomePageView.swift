@@ -10,7 +10,7 @@ import SwiftUICharts
 
 
 struct HomePageView: View {
-    var demoData: [Double] = [8, 2, 4, 6, 12, 9, 2]
+    @EnvironmentObject var transactionListViewModel: TransactionListViewModel
 
     var body: some View {
         
@@ -23,13 +23,18 @@ struct HomePageView: View {
                         .bold()
                     
                     //MARK: - Expenses Chat
+                    
+                    
+                    let data = transactionListViewModel.accumulateTransactions()
+                    let totalExpenses = data.last?.1 ?? 0
+                    
                     CardView{
                         VStack {
-                            ChartLabel("GHS 900", type: .title)
+                            ChartLabel(totalExpenses.formatted(.currency(code: "GHS")), type: .title)
                             LineChart()
                         }.background(Color.systemBackground)
                     }
-                        .data(demoData)
+                        .data(data)
                         .chartStyle(ChartStyle(
                             backgroundColor: Color.systemBackground,
                             foregroundColor: ColorGradient(Color.icon.opacity(0.4), Color.icon)))
