@@ -30,8 +30,8 @@ struct HomePageView: View {
                         let totalExpenses = data.last?.1 ?? 0
                         
                         CardView{
-                            VStack {
-                                ChartLabel(totalExpenses.formatted(.currency(code: "GHS")), type: .title)
+                            VStack (alignment: .leading) {
+                                ChartLabel(totalExpenses.formatted(.currency(code: "GHS")), type: .title, format: "GHS %..02f")
                                 LineChart()
                             }.background(Color.systemBackground)
                         }
