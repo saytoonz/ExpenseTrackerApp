@@ -14,7 +14,7 @@ struct ExpenseTrackerAppApp: App {
     
     var body: some Scene {
         WindowGroup {
-            HomePageView()
+            HomeView()
                 .environmentObject(transactionListViewModel)
         }
     }

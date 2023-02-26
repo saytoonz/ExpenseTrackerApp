@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftUICharts
 
 
-struct HomePageView: View {
+struct HomeView: View {
     @EnvironmentObject var transactionListViewModel: TransactionListViewModel
 
     var body: some View {
@@ -77,8 +77,8 @@ struct ContentView_Previews: PreviewProvider {
     
     static var previews: some View {
         Group{
-            HomePageView()
-            HomePageView()
+            HomeView()
+            HomeView()
                 .preferredColorScheme(.dark)
         }
         .environmentObject(transactionListViewModel)
